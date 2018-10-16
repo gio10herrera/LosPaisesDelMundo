@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ListaPaises" />
-        <activity android:name=".DatosPais"></activity>
+        <activity android:name=".DatosPais" />
+        <activity android:name=".Actualizar"></activity>
     </application>
 
 </manifest>

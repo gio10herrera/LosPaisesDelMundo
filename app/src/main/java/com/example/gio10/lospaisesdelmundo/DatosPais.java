@@ -19,7 +19,7 @@ public class DatosPais extends AppCompatActivity {
 
     Pais p;
     TextView tv;
-    Button borrar;
+    Button borrar, actualizar;
     int i;
     PaisDbHelper basedatos;
 
@@ -32,6 +32,7 @@ public class DatosPais extends AppCompatActivity {
         i = getIntent().getIntExtra("i",-1);
         tv = findViewById(R.id.txtViewDatosPais);
         borrar = findViewById(R.id.btnBorrar);
+        actualizar = findViewById(R.id.btnActualizar);
 
         String datos = "NOMBRE: " + p.getNombre() + "\nCAPITAL: " + p.getCapital() + "\n"
                 + "NUMERO DE HABITANTES: " + p.getnHabitantes() + "\nCONTINENTE: " + p.getContinente()
@@ -45,6 +46,20 @@ public class DatosPais extends AppCompatActivity {
             }
         });
 
+        actualizar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                actualizaFilas();
+            }
+        });
+
+    }
+
+    public void actualizaFilas(){
+        Intent elIntent = new Intent(this,Actualizar.class);
+        elIntent.putExtra("pais",p);
+        startActivity(elIntent);
+        finish();
     }
 
     public void borrarFila(){

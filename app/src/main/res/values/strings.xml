@@ -13,6 +13,7 @@
     <string name="textoPaisSeleccionado">DATOS DEL PAIS SELECCIONADO</string>
     <string name="textoActualizar">ACTUALIZAR PAIS</string>
     <string name="textoBorrar">ELIMINAR PAIS</string>
+    <string name="textoActualizacion">ACTUALIZACION DE DATOS</string>
 
     <string-array name="continentes_array">
         <item>AMERICA</item>
