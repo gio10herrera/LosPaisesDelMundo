@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">COUNTRIES OF THE WORLD</string>
+    <string name="action_settings">Settings</string>
+    <string name="textonombre">NAME</string>
+    <string name="textogenero">GENRE</string>
+    <string name="textoyear">YEAR</string>
+    <string name="textoactor">ACTOR</string>
+    <string name="textoguardar">SAVE</string>
+    <string name="textomostrar">LIST</string>
+
+    <string-array name="continentes_array">
+        <item>AMERICA</item>
+        <item>ASIA</item>
+        <item>AFRICA</item>
+        <item>EUROPE</item>
+        <item>OCEANIA</item>
+    </string-array>
+
+    <string-array name="gobiernos_array">
+        <item>REPUBLIC</item>
+        <item>PRESIDENTIALISM</item>
+        <item>MONARCHY</item>
+        <item>THEOCRACY</item>
+        <item>DEMOCRACY</item>
+        <item>DICTATORSHIP</item>
+        <item>FASCISM</item>
+    </string-array>
+</resources>

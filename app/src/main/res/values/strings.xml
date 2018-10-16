@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">PAISES DEL MUNDO</string>
+    <string name="action_settings">Settings</string>
+    <string name="textoNombre">NOMBRE</string>
+    <string name="textoCapital">CAPITAL</string>
+    <string name="textoNHabit">NUMERO DE HABITANTES</string>
+    <string name="textoCont">CONTINENTE</string>
+    <string name="textoIdioma">IDIOMA OFICIAL</string>
+    <string name="textoMoneda">MONEDA</string>
+    <string name="textoTGobierno">TIPO GOBIERNO</string>
+    <string name="textoguardar">GUARDAR</string>
+    <string name="textomostrar">MOSTRAR</string>
+
+    <string-array name="continentes_array">
+        <item>AMERICA</item>
+        <item>ASIA</item>
+        <item>AFRICA</item>
+        <item>EUROPA</item>
+        <item>OCEANIA</item>
+    </string-array>
+
+    <string-array name="gobiernos_array">
+        <item>REPUBLICA</item>
+        <item>PRESIDENCIALISMO</item>
+        <item>MONARQUIA</item>
+        <item>TEOCRACIA</item>
+        <item>DEMOCRACIA</item>
+        <item>DICTADURA</item>
+        <item>FASCISMO</item>
+    </string-array>
+</resources>
