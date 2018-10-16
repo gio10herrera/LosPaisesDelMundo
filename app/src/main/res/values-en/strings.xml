@@ -11,6 +11,7 @@
     <string name="textoActualizar">UPDATE OOUNTRY</string>
     <string name="textoBorrar">DELETE COUNTRY</string>
     <string name="textoActualizacion">DATA UPDATE</string>
+    <string name="textoAbout">ABOUT</string>
 
     <string-array name="continentes_array">
         <item>AMERICA</item>
