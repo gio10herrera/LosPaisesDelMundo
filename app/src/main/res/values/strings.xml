@@ -7,9 +7,12 @@
     <string name="textoCont">CONTINENTE</string>
     <string name="textoIdioma">IDIOMA OFICIAL</string>
     <string name="textoMoneda">MONEDA</string>
-    <string name="textoTGobierno">TIPO GOBIERNO</string>
+    <string name="textoTGobierno">TIPO DE GOBIERNO</string>
     <string name="textoguardar">GUARDAR</string>
     <string name="textomostrar">MOSTRAR</string>
+    <string name="textoPaisSeleccionado">DATOS DEL PAIS SELECCIONADO</string>
+    <string name="textoActualizar">ACTUALIZAR PAIS</string>
+    <string name="textoBorrar">ELIMINAR PAIS</string>
 
     <string-array name="continentes_array">
         <item>AMERICA</item>

@@ -1,5 +1,6 @@
 package com.example.gio10.lospaisesdelmundo;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
@@ -40,8 +41,13 @@ public class ListaPaises extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Pais p = paises.get(i);
-                String cadena = p.getNombre() + " "  + p.getCapital() + " " + p.getContinente();
-                Toast.makeText(ListaPaises.this,"Item seleccionado = " + i + "  " + cadena, Toast.LENGTH_LONG).show();
+                Intent it = new Intent(ListaPaises.this,DatosPais.class);
+                it.putExtra("pais",p);
+                it.putExtra("i",i);
+                startActivity(it);
+                finish();
+                //String cadena = p.getNombre() + " "  + p.getCapital() + " " + p.getContinente();
+                //Toast.makeText(ListaPaises.this,"Item seleccionado = " + i + "  " + cadena, Toast.LENGTH_LONG).show();
             }
         });
 

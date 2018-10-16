@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ListaPaises"></activity>
+        <activity android:name=".ListaPaises" />
+        <activity android:name=".DatosPais"></activity>
     </application>
 
 </manifest>

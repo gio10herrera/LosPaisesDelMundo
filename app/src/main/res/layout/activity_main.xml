@@ -7,30 +7,14 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center_horizontal"
-        android:text="@string/textoNombre"
-        android:textSize="20sp" />
-
     <EditText
         android:id="@+id/txtNombPais"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:ems="10"
-        android:hint="Nombre"
+        android:hint="@string/textoNombre"
         android:inputType="text" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center_horizontal"
-        android:text="@string/textoCapital"
-        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/txtCapital"
@@ -38,16 +22,8 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:ems="10"
-        android:hint="Capital"
+        android:hint="@string/textoCapital"
         android:inputType="text" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center_horizontal"
-        android:text="@string/textoNHabit"
-        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/txtNHabitantes"
@@ -55,16 +31,8 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:ems="10"
-        android:hint="Numero de Habitantes"
+        android:hint="@string/textoNHabit"
         android:inputType="text" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center_horizontal"
-        android:text="@string/textoIdioma"
-        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/txtIdioma"
@@ -72,16 +40,8 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:ems="10"
-        android:hint="Idioma Oficial"
+        android:hint="@string/textoIdioma"
         android:inputType="text" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center_horizontal"
-        android:text="@string/textoMoneda"
-        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/txtMoneda"
@@ -89,7 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:ems="10"
-        android:hint="Moneda"
+        android:hint="@string/textoMoneda"
         android:inputType="text" />
 
     <TextView
@@ -97,9 +57,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:gravity="center_horizontal"
+        android:background="#ecedeb"
+        android:gravity="center_horizontal|center"
         android:text="@string/textoCont"
-        android:textSize="20sp" />
+        android:textAppearance="@style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item"
+        android:textSize="20sp"
+        android:textStyle="normal|bold" />
 
     <Spinner
         android:id="@+id/spinnerCont"
@@ -113,9 +76,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:gravity="center_horizontal"
+        android:background="#ecedeb"
+        android:gravity="center_horizontal|center"
         android:text="@string/textoTGobierno"
-        android:textSize="20sp" />
+        android:textAppearance="@style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <Spinner
         android:id="@+id/spinnerTipGob"

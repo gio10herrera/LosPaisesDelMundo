@@ -7,6 +7,9 @@
     <string name="textoactor">ACTOR</string>
     <string name="textoguardar">SAVE</string>
     <string name="textomostrar">LIST</string>
+    <string name="textoPaisSeleccionado">DATA OF THE SELECTED COUNTRY</string>
+    <string name="textoActualizar">UPDATE OOUNTRY</string>
+    <string name="textoBorrar">DELETE COUNTRY</string>
 
     <string-array name="continentes_array">
         <item>AMERICA</item>
